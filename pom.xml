@@ -34,7 +34,7 @@
 		</plugins>
 	</build>
   <modules>
-    <module>spring-petclinic-datamodel</module>
+    <module>spring-petclinic-model</module>
     <module>spring-petclinic-web</module>
   </modules>
 </project>
