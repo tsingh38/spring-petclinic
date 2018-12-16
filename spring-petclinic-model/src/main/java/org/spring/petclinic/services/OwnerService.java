@@ -4,7 +4,7 @@ import java.util.Set;
 
 import org.spring.petclinic.model.Owner;
 
-interface OwnerService extends CommonService<Owner, Long> {
+interface OwnerService extends CrudService<Owner, Long> {
 
 
 }
