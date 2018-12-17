@@ -7,7 +7,9 @@ import org.spring.petclinic.model.Owner;
 import org.spring.petclinic.model.Pet;
 import org.spring.petclinic.services.CrudService;
 import org.spring.petclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long>  implements PetService{
 
 
