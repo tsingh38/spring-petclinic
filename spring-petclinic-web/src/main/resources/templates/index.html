@@ -5,6 +5,12 @@
 <title>Pet CLinic</title>
 </head>
 <body>
-<h1>Index Page</h1>
+<h1 th:text="'List of Vets'">Vets List</h1>
+<tr th:each="vet:${vets}">
+<td th:text="${vet.id}">1</td>
+<td th:text="${vet.firstname}">2</td>
+<td th:text="${vet.lastname}">3</td>
+<tr/>
+
 </body>
 </html>

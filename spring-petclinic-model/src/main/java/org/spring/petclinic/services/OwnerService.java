@@ -5,7 +5,7 @@ import java.util.Set;
 import org.spring.petclinic.model.Owner;
 import org.springframework.stereotype.Service;
 
-@Service
+
 public interface OwnerService extends CrudService<Owner, Long> {
 
 
