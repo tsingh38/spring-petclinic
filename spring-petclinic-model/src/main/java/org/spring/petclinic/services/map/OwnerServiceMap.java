@@ -5,8 +5,9 @@ import java.util.Set;
 import org.spring.petclinic.*;
 import org.spring.petclinic.model.Owner;
 import org.spring.petclinic.services.CrudService;
+import org.spring.petclinic.services.OwnerService;
 
-public class OwnerServiceMap extends AbstractMapService<Owner,Long>  implements CrudService<Owner,Long>{
+public class OwnerServiceMap extends AbstractMapService<Owner,Long>  implements OwnerService{
 
 
 	@Override

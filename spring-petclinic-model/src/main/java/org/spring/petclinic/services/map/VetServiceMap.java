@@ -6,8 +6,9 @@ import org.spring.petclinic.*;
 import org.spring.petclinic.model.Owner;
 import org.spring.petclinic.model.Vet;
 import org.spring.petclinic.services.CrudService;
+import org.spring.petclinic.services.VetService;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long>  implements CrudService<Vet,Long>{
+public class VetServiceMap extends AbstractMapService<Vet,Long>  implements VetService{
 
 
 	@Override
