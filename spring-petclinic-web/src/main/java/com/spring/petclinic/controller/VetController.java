@@ -4,8 +4,6 @@ package com.spring.petclinic.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.spring.petclinic.services.OwnerService;
 import com.spring.petclinic.services.VetService;
 
 @Controller
