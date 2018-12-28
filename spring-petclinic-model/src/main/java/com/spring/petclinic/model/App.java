@@ -1,4 +1,4 @@
-package org.spring.petclinic.web;
+package com.spring.petclinic.model;
 
 /**
  * Hello world!

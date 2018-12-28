@@ -1,13 +1,13 @@
-package org.spring.petclinic.services.map;
+package com.spring.petclinic.services.map;
 
 import java.util.Set;
 
-import org.spring.petclinic.*;
-import org.spring.petclinic.model.Owner;
-import org.spring.petclinic.model.Vet;
-import org.spring.petclinic.services.CrudService;
-import org.spring.petclinic.services.VetService;
 import org.springframework.stereotype.Service;
+
+import com.spring.petclinic.model.Owner;
+import com.spring.petclinic.model.Vet;
+import com.spring.petclinic.services.CrudService;
+import com.spring.petclinic.services.VetService;
 
 @Service
 public class VetServiceMap extends AbstractMapService<Vet,Long>  implements VetService{

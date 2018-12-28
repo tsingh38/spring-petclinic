@@ -1,4 +1,4 @@
-package org.spring.petclinic.services.map;
+package com.spring.petclinic.services.map;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.spring.petclinic.model.BaseEntity;
+import com.spring.petclinic.model.BaseEntity;
 
 public abstract class AbstractMapService <T extends BaseEntity,ID extends Long>{
 

@@ -1,9 +1,10 @@
 package com.spring.petclinic.controller;
 
-import org.spring.petclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring.petclinic.services.OwnerService;
 
 @Controller
 public class OwnerController {
